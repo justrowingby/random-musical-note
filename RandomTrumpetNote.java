@@ -8,25 +8,25 @@ public class RandomTrumpetNote
     String noteName = "";
     switch(note%12)
     {
-      case 0: noteName = "F#";
+      case 0: noteName = "F#/Gb";
         break;
       case 1: noteName = "G";
         break;
-      case 2: noteName = "Ab";
+      case 2: noteName = "G#/Ab";
         break;
       case 3: noteName = "A";
         break;
-      case 4: noteName = "Bb";
+      case 4: noteName = "A#/Bb";
         break;
       case 5: noteName = "B";
         break;
       case 6: noteName = "C";
         break;
-      case 7: noteName = "C#";
+      case 7: noteName = "C#/Db";
         break;
       case 8: noteName = "D";
         break;
-      case 9: noteName = "Eb";
+      case 9: noteName = "D#/Eb";
         break;
       case 10: noteName = "E";
         break;
